@@ -1,0 +1,472 @@
+body {
+    background: rgba(245, 245, 245, 0.84);
+    margin:0px;
+    padding:0px;
+}
+@media screen  and (max-width:767px){
+    body{
+        margin: 0px;
+        margin: 0px;
+     }
+     
+     .itemsAndButtons {
+        margin: 10px;
+       
+        padding: 10px;
+
+     }
+     .titlePriceAmount {
+          font-size: 25px;
+         
+         
+          
+     }
+     
+     .itemsContainer  {
+        display: flex;
+        justify-content:space-evenly;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+        
+          margin:20px;
+    
+     padding:5px;
+      
+       
+
+     }
+     button {
+        background: none;
+        border: none;
+        color:white;
+       
+      
+     }
+     /* .form {
+        display: flex;
+        gap: 1rem;
+        margin: 10px;
+        border-radius: 20px;
+        flex-direction: column;
+        border:2px solid black;
+     } */
+     .btns {
+        display: flex;
+        padding: 10px;
+        font-size: 35px;
+        justify-content:space-around;
+        width:50%;
+        align-items: flex-end;
+             
+        border-radius:10px;
+        background-color:rgba(0, 0, 146, 0.696);
+       
+       
+     }
+     .titlePriceAmount{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+     }
+     .cartNav {
+         display: flex;
+         justify-content:space-between;
+         height:fit-content;
+         background:rgba(0, 0, 0, 0.624);
+         color:rgba(245, 245, 245, 0.949);
+         
+         padding:30px;
+     }
+     .h3 {
+
+         font-size: 40px;
+         font-weight: bold;
+         display: flex;
+         justify-content:flex-start;
+         gap:1rem;
+
+ 
+     }
+     .shoppingCartAmount{
+         display: flex;
+         justify-content:flex-end;
+         margin-right:15px;
+
+     }
+     
+     .shoppingCart{
+         font-size: 40px;
+         margin-right:-25px;
+         color:white;
+         
+     }
+     .amount {
+         display: flex;
+         margin-top: -14px;
+         background-color:red;
+         border: 1px solid red;
+         border-radius: 100%;
+         color:white;
+         width: fit-content;
+         height: fit-content;
+         padding:6px;
+         font-size:16px;
+         font-weight:bolder;
+     }
+     .emptyBag {
+         margin: 20px;
+         font-size:40px;
+     }
+     .bag {
+         margin:10px;
+        font-weight: bold;
+        font-size:40px;
+     }
+     .totalAndClear {
+         display: flex;
+         justify-content: space-between;
+         gap:2rem;
+     }
+     .total {
+       margin:50px;
+       margin-left:20px;
+       font-size: 25px;
+       
+     }
+     .clearbtn {
+         margin-right:15px;
+         height:20px;
+         width:fit-content;
+         padding:3px;
+         background:orange;
+  
+     }
+     .inputSearch {
+      
+        padding: 5px;
+        border-radius:5px;
+    
+    }
+     .clearbtn:hover {
+         display: flex;
+         justify-content: flex-end;
+         cursor: pointer;
+         border-radius: 2px solid white;
+         opacity: 0.7;
+     }
+     
+   
+     .bagHeader{
+         display: flex;
+         justify-content: space-evenly;
+
+         
+     }
+}
+@media screen  and (min-width:767px) and (max-width:1023px){
+    body{
+        margin: 0px;
+        margin: 0px;
+     }
+     .itemsContainer {
+        display: flex;
+        justify-content:space-evenly;
+        word-wrap: break-word;
+     box-shadow:-1px 3px 3px 3px black;
+     padding:5px;
+     width:190px;
+     height:190px;
+      
+       
+
+     }
+     .itemsContainer:hover {
+cursor: pointer;
+     }
+    .itemsAndButtons {
+        margin: 10px;
+        border:none;
+        padding: 10px;
+
+
+     }
+    .btns {
+        display: flex;
+        gap: 1rem;
+        padding: 10px;
+        font-size: 35px;
+        justify-content: center;
+        color:bisque;
+      
+        border-radius:10px;
+        background-color:black;
+      
+       
+       
+     }
+    .inputSearch {
+        margin: 20px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .btns:hover {
+        cursor: pointer;
+    }
+    .closeTap {
+        margin-left:-45px;
+    }
+    .cartNav {
+        display: flex;
+        justify-content:space-between;
+        height:30px;
+        background:black;
+        color:white;
+        padding:20px;
+    }
+    .h3 {
+
+        font-size: 15px;
+        display: flex;
+        justify-content:flex-start;
+        gap:1rem;
+        color:whitesmoke;
+
+    }
+    a:visited{
+        color:aqua;
+
+    }
+    .shoppingCartAmount{
+        display: flex;
+        justify-content:flex-end;
+        margin-right:30px;
+        background-color: none;
+    }
+    .shoppingCart{
+        font-size: 30px;
+        margin-right:-20px;
+        background-color: none;
+    }
+    .amount {
+        display: flex;
+        margin-top: -14px;
+        background-color:red;
+        border: 1px solid red;
+        border-radius: 100%;
+        width: fit-content;
+        height: fit-content;
+        padding:10px;
+        font-size:10px;
+        font-weight:bolder;
+    }
+    .emptyBag {
+        margin: 20px;
+    }
+    .bag {
+        margin:10px;
+    }
+    .totalAndClear {
+        display: flex;
+        justify-content: space-between;
+        gap:2rem;
+    }
+    .total {
+      margin:50px;
+      margin-left:90px
+    }
+    .clearbtn {
+        margin-right:15px;
+        height:20px;
+        width:fit-content;
+        padding:3px;
+        background:orange;
+ 
+    }
+    .clearbtn:hover {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        border-radius: 2px solid white;
+        opacity: 0.7;
+    }
+    .cartContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      
+    }
+    button {
+    
+      background-color:transparent;
+        color:whitesmoke;
+        border: none;
+       
+        gap: 1rem;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+   
+    .bagHeader{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}
+
+@media screen  and (min-width:1024px){
+    body{
+       margin: 0px;
+       margin: 0px;
+    
+     
+    }
+    .itemsContainer {
+        margin:20px;
+        display: flex-start;
+       flex-direction:column;
+     box-shadow:-1px 3px 3px 3px black;
+     width:fit-content;
+     height:300px;
+     gap:1rem;
+      
+       
+
+     }
+    .photo {
+        
+        height:300px;
+        width:300px;
+    }
+    .glassAndInfo{
+     display:flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-items: center;
+
+
+    }
+     .btns {
+        display: flex;
+        padding: 10px;
+        font-size: 35px;
+        justify-content:space-around;
+        width:50%;
+        align-items: flex-end;
+             
+        border-radius:10px;
+        background-color:rgba(0, 0, 146, 0.696);
+       
+     }
+     .btnsAdded {
+        display: flex;
+    
+        font-size: 35px;
+        justify-content: center;
+        border:none;
+      
+        border-radius:10px;
+        background-color:green;
+      
+       
+       
+     }
+    .inputSearch {
+      
+        padding:3px;
+        border-radius: 5px;
+     
+    }
+    .btns:hover {
+        cursor: pointer;
+    }
+    .closeTap {
+        margin-left:-45px;
+    }
+    .cartNav {
+        display: flex;
+        justify-content:space-between;
+       height:30px;
+        background:rgba(0, 0, 0, 0.624);
+        color:white;
+        padding:20px;
+    }
+    .h3 {
+
+        font-size: 15px;
+        display: flex;
+        justify-content:flex-start;
+        gap:1rem;
+        color:whitesmoke;
+
+    }
+    a:visited{
+        color:aqua;
+
+    }
+    .shoppingCartAmount{
+        display: flex;
+        justify-content:flex-end;
+        margin-right:30px;
+        background-color: none;
+    }
+    .shoppingCart{
+        font-size: 30px;
+        margin-right:-20px;
+        background-color: none;
+    }
+    .amount {
+        display: flex;
+        margin-top: -14px;
+        background-color:red;
+        border: 1px solid red;
+        border-radius: 100%;
+        width: fit-content;
+        height: fit-content;
+        padding:10px;
+        font-size:10px;
+        font-weight:bolder;
+    }
+    .emptyBag {
+        margin: 20px;
+    }
+    .bag {
+        margin:10px;
+    }
+    .glassAndInfo {
+        display: flex;
+        justify-content: space-between;
+        gap:2rem;
+    }
+    .total {
+      margin:50px;
+      margin-left:90px;
+    }
+    .clearbtn {
+        margin-right:15px;
+        height:20px;
+        width:fit-content;
+        padding:3px;
+        background:orange;
+ 
+    }
+    .clearbtn:hover {
+     
+        cursor: pointer;
+       
+    }
+    .cartContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin:20px;
+     
+    }
+
+   
+    
+   
+    
+    
+    
+}
